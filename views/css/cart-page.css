@@ -1,0 +1,68 @@
+#cart .product-line-grid-right .qty:has(.fractional-quantity) .input-group:not(.agdecimalquantities-input-group) {
+    display: none;
+}
+
+.agdecimalquantities .cart_custom_quantity_row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.agdecimalquantities .d-flex {
+    display: flex;
+}
+
+.agdecimalquantities .bootstrap-touchspin .form-control,
+.agdecimalquantities .bootstrap-touchspin .input-group-addon,
+.agdecimalquantities .bootstrap-touchspin .input-group-btn-vertical {
+    height: 44px !important;
+    line-height: 40px;
+}
+
+.agdecimalquantities .agdecimalquantities_unit {
+    padding-block: 0;
+}
+
+.agdecimalquantities .fractional-quantity-input {
+    width: 100%!important;
+}
+
+.agdecimalquantities .bootstrap-touchspin .btn-touchspin:focus,
+.agdecimalquantities .bootstrap-touchspin .btn-touchspin:hover,
+.agdecimalquantities .bootstrap-touchspin .btn-touchspin:focus-visible {
+    background-color: #fff;
+    outline: none;
+}
+
+.agdecimalquantities .bootstrap-touchspin .input-group-btn-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.agdecimalquantities .input-group-btn-vertical .btn {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    min-width: 20px;
+    justify-content: center;
+}
+
+.agdecimalquantities .input-group-btn-vertical .btn i {
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+}
+
+#blockcart-modal .product-quantity,
+#blockcart-modal .cart-products-count {
+    display: none!important;
+}
+
+#cart .cart-total .value {
+    display: block;
+}

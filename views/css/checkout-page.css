@@ -1,0 +1,8 @@
+.cart-summary-products p:first-child,
+#cart-summary-product-list .media-body:has(.agdecimalquantities) .product-quantity {
+    display: none;
+}
+
+.cart-summary-products .media {
+    margin-bottom: 1rem;
+}
