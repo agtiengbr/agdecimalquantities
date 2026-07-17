@@ -2,7 +2,7 @@
 <module>
     <name>agdecimalquantities</name>
     <displayName><![CDATA[Decimal Quantities]]></displayName>
-    <version><![CDATA[1.0.4]]></version>
+    <version><![CDATA[1.0.5]]></version>
     <description><![CDATA[Allows customers to purchase decimal quantities of products.]]></description>
     <author><![CDATA[AGTI]]></author>
     <tab><![CDATA[front_office_features]]></tab>

@@ -29,7 +29,7 @@ class baseAgDecimalQuantities extends AgModule
         // Inicializa o módulo, define suas propriedades e chama o construtor da classe pai
         $this->name = 'agdecimalquantities';
         $this->tab = 'front_office_features';
-        $this->version = '1.0.4';
+        $this->version = '1.0.5';
         $this->author = 'AGTI';
         $this->need_instance = 0;
 
